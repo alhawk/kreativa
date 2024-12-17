@@ -1,8 +1,13 @@
-import "./App.css";
+import { ConfigProvider } from "antd";
+import MainToolbar from "./components/toolbars/main-toolbar/MainToolbar";
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline bg-blue-300">Hello world!</h1>
+    <div className="h-screen bg-gray-50">
+      <ConfigProvider>
+        <MainToolbar />
+      </ConfigProvider>
+    </div>
   );
 };
 
