@@ -1,6 +1,6 @@
 import { ConfigProvider } from "antd";
 import MainToolbar from "./components/toolbars/main-toolbar/MainToolbar";
-import Artwork from "./components/artwork/Artwork";
+import Drawer from "./components/drawer/Drawer";
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <ConfigProvider>
         <MainToolbar />
 
-        <Artwork />
+        <Drawer />
       </ConfigProvider>
     </div>
   );
