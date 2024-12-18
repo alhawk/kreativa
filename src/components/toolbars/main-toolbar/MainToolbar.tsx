@@ -11,7 +11,7 @@ const MainToolbar = () => {
     <FloatButton.Group
       shape="square"
       placement="top"
-      className="top-[2px] left-[2px] w-fit h-full"
+      className="top-[10px] left-[10px] w-fit"
     >
       <FloatButton icon={<Square2StackIcon />} />
       <FloatButton icon={<CircleStackIcon />} />
